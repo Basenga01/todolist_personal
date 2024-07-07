@@ -34,7 +34,6 @@ export const Todolist = ({title, tasks, setFilterState, filterState}:Props) =>{
             </li>)}
 
         </ul>
-
         <div>
             <button style={setColor(filterState,"All", "navy")} onClick={()=> setFilterState("All")}>All</button>
             <button style={setColor(filterState,"Active", "red")} onClick={()=> setFilterState("Active")}>Active</button>
