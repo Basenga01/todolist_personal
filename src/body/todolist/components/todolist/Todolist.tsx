@@ -19,7 +19,6 @@ export const Todolist = ({title, tasks, setFilterState, filterState}:Props) =>{
     const addTask = () =>{
         tasks.push({id: 5, task: "Задача", isDone: false})
     }
-
     return <div>
 
         <div>{title}</div>
